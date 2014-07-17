@@ -6,7 +6,7 @@
 		<article class="page">
 			<header class="page-header">
 				<div class="container">
-					<h1><?php echo page_title(); ?></h1>
+					
 				</div>
 			</header>
 			<div class="page-content">
