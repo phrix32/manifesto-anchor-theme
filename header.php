@@ -62,8 +62,8 @@
 		
 		<header class="site-header clearfix">
 			<a class="site-header__menu-trigger" href="#menu-panel"></a>
-			<h2 class="site-header__logo"><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h2>
-			<p class="site-header__description"><?php echo mb_strtoupper(page_title()); ?></p>
+			<h2 class="site-header__logo"><a href="<?php echo base_url(); ?>"><?php echo "// " . site_name(); ?></a></h2>
+			<p class="site-header__description"><?php echo "/ " . mb_strtoupper(page_title()); ?></p>
 			
 			<aside class="jpanel-menu menu-panel hidden">
 				<div class="menu-panel__menu-wrap">
